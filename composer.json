@@ -1,0 +1,24 @@
+{
+    "name": "walterdis/yii2-asset-coreui",
+    "description": "Coreui dashboard Assets for Yii 2",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Walter Discher Cechinel",
+            "email": "mistrim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "lavary/menus": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Walterdis\\Yii2\\Asset\\CoreUi\\": "src/"
+        }
+    }
+}
